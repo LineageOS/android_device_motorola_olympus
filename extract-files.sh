@@ -43,6 +43,8 @@ adb pull /system/etc/am2server.pubkey ../../../vendor/$VENDOR/$DEVICE/proprietar
 adb pull /system/lib/libAuthUDMDrv_1750A100.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
 adb pull /system/lib/libam2app.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
 adb pull /system/lib/libam2server.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
+adb pull /system/app/FingerprintSensor.apk ../../../vendor/$VENDOR/$DEVICE/proprietary/app
+adb pull /system/etc/tsm.xml ../../../vendor/$VENDOR/$DEVICE/proprietary/etc
 
 # system libs
 adb pull /system/lib/libmirror.so ../../../vendor/$VENDOR/$DEVICE/proprietary/lib
