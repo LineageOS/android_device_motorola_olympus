@@ -18,6 +18,10 @@
 -->
 
 <resources>
+	<!-- Touch to focus parameters -->
+	<string name="touchFocusParameter">mot-areas-to-focus</string>
+	<bool name="touchFocusNeedsRect">true</bool>
+
 	<!-- FFC parameter filtering -->
 	<bool name="ffc_canFocus">false</bool>
 	<bool name="ffc_canZoom">false</bool>
