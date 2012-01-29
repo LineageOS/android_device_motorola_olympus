@@ -126,6 +126,9 @@ TARGET_SPECIFIC_HEADER_PATH := device/motorola/olympus/include
 #EGL
 BOARD_EGL_CFG := device/motorola/olympus/config/egl.cfg
 
+#HDMI
+BOARD_USES_LGE_HDMI_ROTATION := true
+
 #USB Tethering
 BOARD_CUSTOM_USB_CONTROLLER := ../../device/motorola/olympus/UsbController.cpp
 BOARD_HAS_LARGE_FILESYSTEM := true
